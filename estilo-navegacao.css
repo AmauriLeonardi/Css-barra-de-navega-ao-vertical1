@@ -1,0 +1,56 @@
+/*
+*************barra de navegação vertical**************************
+*/
+
+/*ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+li{
+	padding: 20px;
+	background: url(../imagem/seta.png) no-repeat left center;
+}
+*/
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+ul a {
+	width: 200px;
+	height: 40px;
+	display: block;
+	border: 1px solid red;
+	background: #f7b600 url(../imagem/dragoes.png) no-repeat left bottom;
+	font-size: 10px;
+	text-indent: 40px;
+	text-decoration: none;
+	color: #F5F5DC;
+	line-height: 40px;
+}
+/*
+*******para marcar a barra de navegação na pagina visitada atual*******
+*/
+a:hover{
+	background-position: right bottom;
+	background-color: f99200;
+	color: #7FFF00;
+}
+/* ******a id navegação e um limitador para o codigo para no avançar para outras areas de codigo */
+#home #navegacao .home a,
+#brinquedo #navegacao .brinquedo a,
+#celulares #navegacao .celulares a,
+#ferramentas #navegacao .ferramentas a,
+#saude #navegacao .saude a,
+#livros #navegacao .livros a,
+#eletronicos #navegacao .eletronicos a,
+#conveniencia #navegacao .conveniencia a{
+	background-position: right bottom;
+	background-color: f99200;
+	color: #fff;
+}
